@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+nav {
+    background-color:#54BAB9;
+    padding: 20px 10px 10px 10px;
+
+}
+
+nav h1 i {
+    margin-right: 20px;
+}
+
+nav div {
+    display: inline-block;
+    width: 49%;
+}
+
+nav div h1 {
+    margin-left: 45px;
+    padding: 20px 10px 10px 10px;
+}
+
+nav div a {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #720b0b;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+
+}
+
+h1 {
+    color: #241468;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+nav div a:hover {
+    color:#42032C;
+    text-decoration: solid;
+    font-weight:600;
+}
+
+.ABC {
+    text-align: end;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.Main {
+
+    width: 80%;
+    margin: 50px;
+    padding-right:10px;
+}
+
+.Main div {
+    display: inline-block;
+    width: 49%;
+}
+
+.sub {
+    text-align: center;
+    padding-left: 15px;
+}
+
+.sub img {
+    border-radius: 100%;
+    border-color: black;
+    border-style: dashed;
+
+}
+
+.sub1 {
+    font-family: 'DM Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.sub1 button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #d7e60d;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sub1 button :hover {
+    opacity: 0.7;
+}
+
+h2 {
+
+    padding-bottom: 5px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.Main1 {
+    display: inline-block;
+    width: 95%;
+    padding-top: 20px;
+    padding-right:10px;
+    margin: 30px 30px 30px 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.Main1 h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mainsub3 {
+    display: inline-block;
+    width: 95%;
+    padding-top: 10px;
+    margin: 10px 20px 20px 10px;
+    padding-left: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mainsub {
+    text-align: center;
+    display: inline-block;
+    width: 95%;
+    padding-top: 10px;
+    margin: 30px 30px 30px 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mainsub1 {
+    text-align: center;
+    display: inline-block;
+    width: 95%;
+    padding-top: 10px;
+    margin: 30px 30px 30px 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Main2 {
+    display: inline-block;
+    width: 95%;
+    padding-top: 10px;
+    margin: 30px 30px 30px 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Main2 h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mainsub2 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.skillsub {
+    margin: auto;
+    padding: 80px;
+    
+    padding-bottom:10%;
+    }
+
+.skillsub1 {
+    display: inline-block;
+    background-color:rgb(203, 52, 77);
+    width: 22%;
+    height:13%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+
+.skillsub1:hover {
+    scale: 120%;
+    background-color: rgba(222, 135, 21, 0.619);
+}
+
+.mgh {
+    display: inline-block;
+    width: 95%;
+    margin: 20px 20px 20px 20px;
+    margin-left:20px;
+    padding-right:20px;
+}
+
+.project {
+    display: inline-block;
+    margin: 30px 30px 30px 30px;
+    background-color:#D9CB50;
+    border-radius: 3%;
+    width: 40%;
+}
+
+.project:hover {
+    scale: 90%;
+    background-color:#F0E161;
+}
+
+.pro1 {
+    text-align: right;
+    text-decoration: none;
+}
+
+.contact {
+    display: inline-block;
+    width: 90%;
+    padding-right: 20px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.mm{
+   
+    margin:20px 20px 20px 20px;
+}
+.footer{
+    display: inline-block;
+    width:49%;
+    padding-bottom:25px;
+    padding-left:10px;
+    font-family:'DM Sans', sans-serif ;
+   
+}
+ .footerend{
+    display: inline-block;
+    width: 49%;
+    text-align:end;
+    
+    
+}
+.footerend a{
+    margin-right:20px;
+}
+html{
+    scroll-behavior: smooth;
+}
